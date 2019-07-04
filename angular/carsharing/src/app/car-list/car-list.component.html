@@ -1,0 +1,5 @@
+<h1>TODOLIST - List items</h1>
+
+<ng-container *ngFor="let listItem of listItems">
+  <p>{{listItem.id}} @ {{ listItem.description }} @ {{ listItem.user.login }}</p>
+</ng-container>
